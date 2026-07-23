@@ -14,9 +14,12 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Models (optional if too large)
+# Ignore all model files
 *.keras
 *.h5
+
+# Except the trained model
+!models/best_model.keras
 
 # Dataset
 data/raw/
